@@ -1,0 +1,120 @@
+header {
+    position: sticky;
+    top: 0;
+    opacity: 1;
+    width: 100%;
+    left: 0px;
+    right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+    height: 40px;
+    z-index: 999;
+    background-color: #fff;
+    height: 100px;
+  }
+
+header a {
+    color: #101828;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  header .highlighted {
+    display: flex;
+    width: fit-content;
+    border: 3px solid rgba(127, 86, 217, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    position: sticky;
+  }
+  
+  header .highlighted a {
+    background-color: #f2994a;
+    color: #fff;
+    padding: 8px 15px;
+  }
+
+  div .highlighted a {
+    background-color: #f2994a;
+    color: #fff;
+    padding: 8px 15px;
+  }
+  
+  div a {
+    color: #101828;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  header a.sign-in-link {
+    margin-right: 20px;
+  }
+
+  .tutority {
+    position: absolute;
+    width: 103px;
+    height: 43px;
+    left: 99px;
+    top: 25px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #4f4f4f;
+  }
+
+  header .general-links {
+    margin-right: 75px;
+    position: sticky;
+  }
+  
+  header .general-links a {
+    margin-right: 25px;
+  }
+  
+  header .general-links a:last-child {
+    margin-right: 0;
+  }
+
+  header,
+  header .general-links,
+  header nav,
+  .collaborators,
+  .collaborators .company-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .home {
+    width: 48px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #f2994a;
+    flex: none;
+    order: 0;
+    flex-grow: o;
+  }
+
+  .others {
+    width: 56px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #828282;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
