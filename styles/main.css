@@ -1,87 +1,74 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  .banner {
-    max-width: 600px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 50px;
-    letter-spacing: -o.581818px;
-    position: absolute;
-  }
+body {
+  margin: 0;
+  padding: 0;
+}
 
-  .container {
-    margin: 0 auto;
-    width: 1400px;
-    display: flex;
-    flex-direction: column;
-  }
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  b {
-    color: #f2994a;
-    font-size: 50px;
-    text-align: left;
-  }
+.banner-overlay {
+  background: url("/images/banner-bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .text {
-    font-family: 'Bebas Neue';
-  }
+.banner .banner-left {
+  max-width: 686px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+}
 
-  p {
-    margin: 0;
-    color: #828282;
-    position: absolute;
-    font-family: 'Muli';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: -0.625263px;
-    position: absolute;
-    height: 90px;
-    width: 350px;
-  }
+.banner .banner-right {
+  position: relative;
+}
 
-  .buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    width: 157px;
-    height: 85px;
-    order: 1;
-    flex-grow: 0;
-    left: 500px;
-  }
+.banner .banner-right .image {
+  position: relative;
+  z-index: 2;
+}
 
-  .textblock {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 120px;
-    position: absolute;
-    width: 540px;
-    right: 100px;
-    height: 80px;
-    top: 400px;
-    background: #ffff;
-    box-shadow: 0px 4px 20px rgba(201, 201, 201, 0.25);
-    border-radius: 20px;
-  }
+.container {
+  margin: 0 auto;
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+}
 
-  .university {
-    position: absolute;
-    left: 750px;
-    top: 0px;
-  }
+b {
+  color: #f2994a;
+  font-size: 50px;
+  text-align: left;
+}
 
-  .ellipse {
-    position: absolute;
-    width: 361px;
-    height: 361px;
-    left: 979px;
-    top: 169px;
-  }
+.text {
+  font-family: "Bebas Neue";
+}
+
+p {
+  margin: 0;
+  color: #828282;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.625263px;
+  height: 90px;
+  width: 350px;
+}
+
+.success-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
