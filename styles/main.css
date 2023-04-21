@@ -77,3 +77,11 @@
     left: 750px;
     top: 0px;
   }
+
+  .ellipse {
+    position: absolute;
+    width: 361px;
+    height: 361px;
+    left: 979px;
+    top: 169px;
+  }
