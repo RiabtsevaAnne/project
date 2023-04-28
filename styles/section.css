@@ -4,13 +4,13 @@ section {
 }
 
 section .section-info {
-    text-align: right;
+    text-align: left;
     max-width: 768px;
     margin: 0 auto;
 }
 
   
-section .section-info.left-align {
+section .section-info .left-align {
     text-align: left;
     max-width: none;
     margin: 0;
@@ -128,7 +128,6 @@ section .category {
   }
 
   .video {
-    top: 20px;
     width: 870px;
     font-family: 'Poppins';
     font-style: normal;
