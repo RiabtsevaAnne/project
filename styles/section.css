@@ -1,0 +1,140 @@
+section {
+    padding: 70px 0 0 0;
+    position: relative;
+}
+
+section .section-info {
+    text-align: right;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+  
+section .section-info.left-align {
+    text-align: left;
+    max-width: none;
+    margin: 0;
+}
+
+section .category {
+    height: 21px;
+    left: 21px;
+    left: 748px;
+    top: 885px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f2994a;
+}
+
+
+.section-info .ready {
+    width: 400px;
+    height: 100px;
+    font-family: 'Halvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.woman {
+    position: absolute;
+    width: 500px;
+    height: 516px;
+    left: 100px;
+    background: url("/images/rectangle.png");
+}
+
+.restangle {
+    background: url("/images/rectangle93.png");
+}
+
+.section-overlay {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .section .section-right {
+    background: url("/images/rectangle93.png");
+    max-width: 686px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  
+  .section .section-right {
+    position: relative;
+  }
+  
+  .section .section-right .image {
+    position: relative;
+    z-index: 2;
+  }
+
+  .section .section-right {
+    max-width: 686px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .text {
+    height: 120px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #828282;
+  }
+
+  section .getstarted {
+    display: flex;
+    width: 244px;
+    height: 69px;
+    left: 1666px;
+    border: 3px solid rgba(127, 86, 217, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    position: sticky;
+  }
+  
+  section .getstarted a {
+    background-color: #f2994a;
+    color: #fff;
+    padding: 5px 15px;
+  }
+  
+  div .getstarted a {
+    background-color: #f2994a;
+    color: #fff;
+    padding: 17px 80px;
+  }
+
+  .icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .video {
+    top: 20px;
+    width: 870px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4f4f4f;
+  }
+  

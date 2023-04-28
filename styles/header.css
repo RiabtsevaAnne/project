@@ -50,13 +50,17 @@ header a.sign-in-link {
 
 .tutority {
   width: 103px;
-  height: 43px;
   margin: 0 40px 0 0;
+  margin-right: 75px;
+  left: 200px;
+  bottom: 500px;
 }
 
 header .general-links {
   margin-right: 75px;
   position: sticky;
+  left: 200px;
+  bottom: 500px;
 }
 
 header .general-links a {
