@@ -5,6 +5,8 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .banner {
@@ -50,6 +52,10 @@ b {
   text-align: left;
 }
 
+a {
+  text-decoration: none;
+}
+
 .text {
   font-family: "Bebas Neue";
 }
@@ -89,7 +95,7 @@ p {
 .count {
   width: 114px;
   height: 58px;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: normal;
   font-weight: 700;
   font-size: 48px;
@@ -103,7 +109,7 @@ p {
 .success-info .desc {
   width: 500px;
   height: 17px;
-  font-family: 'Muli';
+  font-family: "Muli";
   font-style: normal;
   font-weight: 600;
   font-size: 12.7px;

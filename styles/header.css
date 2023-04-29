@@ -11,6 +11,11 @@ header {
   height: 94px;
 }
 
+header .container {
+  flex-direction: row;
+  align-items: center;
+}
+
 header a {
   color: #101828;
   font-size: 16px;
